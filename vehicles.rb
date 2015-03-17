@@ -42,6 +42,3 @@ p t.shoot!
 p t.remaining_ammo
 p t.reload!
 p t.remaining_ammo
-
-# g = Ground.new(69, 10)
-
