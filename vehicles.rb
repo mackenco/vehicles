@@ -1,21 +1,21 @@
-require './combat.rb'
-require './electric.rb'
+require_relative 'lib/combat'
+require_relative 'lib/electric'
 
-require './person.rb'
-require './vehicle.rb'
+require_relative 'lib/person'
+require_relative 'lib/vehicle'
 
-require './air.rb'
-require './plane.rb'
-require './helicopter.rb'
-require './quadcopter.rb'
+require_relative 'lib/air'
+require_relative 'lib/plane'
+require_relative 'lib/helicopter'
+require_relative 'lib/quadcopter'
 
-require './ground.rb'
-require './car.rb'
-require './electric_car.rb'
-require './motorcycle.rb'
-require './electric_motorcycle.rb'
-require './tank.rb'
-require './electric_tank.rb'
+require_relative 'lib/ground'
+require_relative 'lib/car'
+require_relative 'lib/electric_car'
+require_relative 'lib/motorcycle'
+require_relative 'lib/electric_motorcycle'
+require_relative 'lib/tank'
+require_relative 'lib/electric_tank'
 
 ecar = ElectricCar.new(10, "Honda", "ABCD")
 p "Electric Car"
