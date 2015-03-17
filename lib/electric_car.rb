@@ -1,3 +1,5 @@
+require_relative './electric'
+
 class ElectricCar < Car
   include Electric
 

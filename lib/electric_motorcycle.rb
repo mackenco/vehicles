@@ -1,3 +1,5 @@
+require_relative './electric'
+
 class ElectricMotorcycle < Motorcycle
   include Electric, Combat
 

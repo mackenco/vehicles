@@ -1,3 +1,5 @@
+require_relative './combat'
+
 class Tank < Ground
   include Combat
 

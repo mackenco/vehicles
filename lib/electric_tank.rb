@@ -1,3 +1,5 @@
+require_relative './electric'
+
 class ElectricTank < Tank
   include Electric
 
