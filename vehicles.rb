@@ -1,18 +1,22 @@
-class ElectricMotorcycle < Motorcycle
-  include Electric, Combat
+require './combat.rb'
+require './electric.rb'
 
-  def initialize(age, manufacturer, model_num)
-    super
-  end
-end
+require './person.rb'
+require './vehicle.rb'
 
-class ElectricTank < Tank
-  include Electric
+require './air.rb'
+require './plane.rb'
+require './helicopter.rb'
+require './quadcopter.rb'
 
-  def initialize(age, manufacturer, model_num)
-    super
-  end
-end
+require './ground.rb'
+require './car.rb'
+require './electric_car.rb'
+require './motorcycle.rb'
+require './electric_motorcycle.rb'
+require './tank.rb'
+require './electric_tank.rb'
+
 ecar = ElectricCar.new(10, "Honda", "ABCD")
 p "Electric Car"
 p ecar.wheel_num
